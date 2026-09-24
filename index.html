@@ -48,7 +48,7 @@ th.ai{color:var(--accent)}
 td{padding:12px 16px;border-bottom:1px solid var(--line);color:var(--muted);vertical-align:top}
 td.ai{color:var(--ink);font-weight:600}
 tr:last-child td{border-bottom:0}
-.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .stat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px}
 .stat .n{font-size:32px;font-weight:750;letter-spacing:-.03em;color:var(--accent)}
 .stat .l{font-size:13px;color:var(--muted);margin-top:2px}
@@ -65,7 +65,7 @@ tr:last-child td{border-bottom:0}
 .btn{display:inline-block;background:#fff;color:var(--ink);font-weight:700;font-size:15px;padding:13px 28px;border-radius:8px;text-decoration:none}
 footer{padding:26px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 footer b{color:var(--ink)}
-@media(max-width:800px){.g3,.g2,.stat-row{grid-template-columns:1fr}}
+@media(max-width:800px){.g3,.g2,.stat-row{grid-template-columns:1fr 1fr}}@media(max-width:560px){.stat-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -94,12 +94,12 @@ footer b{color:var(--ink)}
   <h2>AI vs. traditional agency - head to head</h2>
   <p class="sub">Same clinic, same goals. The difference is who's doing the work and how fast.</p>
   <div class="table-scroll"><table>
-    <tr><th>What you need</th><th>Traditional agency</th><th class="ai">AI agents (ours)</th></tr>
-    <tr><td>Website update or new service page</td><td>1–2 weeks, billed per change</td><td class="ai">Under 10 minutes, unlimited</td></tr>
-    <tr><td>New SEO landing page (FAQs, schema, structure)</td><td>Days to weeks, $500–$1,500/page</td><td class="ai">Under 5 minutes, page included</td></tr>
-    <tr><td>Blog content backed by search data</td><td>1–2 posts/month, generic topics</td><td class="ai">Data-driven posts from real keyword research, on schedule</td></tr>
-    <tr><td>Google Ads management</td><td>Set-and-forget, reviewed monthly</td><td class="ai">Monitored daily: keywords mined, negatives updated, losers paused after 3 days</td></tr>
-    <tr><td>Knowing where a lead came from</td><td>"Trust us" - fragmented reports</td><td class="ai">One dashboard: calls, chats, forms, campaigns, and cost per lead</td></tr>
+    <tr><th>What you need</th><th>Traditional agency</th><th class="ai">Integrated AI agent (ours)</th></tr>
+    <tr><td>New product, location, or provider updates</td><td>Email back and forth to explain what's needed. Maybe covered under your plan, maybe billed extra. Days to weeks, plus follow-up just to confirm it happened.</td><td class="ai">Updates go live instantly. Most pages produced within 5 minutes.</td></tr>
+    <tr><td>SEO landing pages (FAQs, schema, structure)</td><td>Most agencies don't know how to build pages structured for SEO and AI search - and when they do, it's a premium charge for that skill set.</td><td class="ai">Every page our agents produce is structured this way by default: FAQs, schema, and SEO structure built in.</td></tr>
+    <tr><td>Blog content</td><td>Generic writers with no hearing-aid industry knowledge. Topics that don't move traffic or conversions.</td><td class="ai">Our agent has years of experience strictly in hearing aids and the hearing industry - blogs that actually rank and convert.</td></tr>
+    <tr><td>Google Ads management</td><td>A knowledge gap on what works. They spend your money like it's not theirs - low return on ad spend.</td><td class="ai">No guessing: strategies tested daily, new converting ads found, losers shut off. Proven track record of a 10x ROAS.</td></tr>
+    <tr><td>Lead conversion attribution</td><td>Requires special software, generally upcharged by the agency on top of retainer.</td><td class="ai">Built in. See exactly where and what your ecosystem is contributing to your practice.</td></tr>
     <tr><td>Your data and your assets</td><td>Hosted on their accounts</td><td class="ai">Sovereign - your site, your data, your hardware. You can leave anytime and keep everything.</td></tr>
   </table></div>
 </div></section>
@@ -107,9 +107,9 @@ footer b{color:var(--ink)}
 <section><div class="wrap">
   <h2>What it does for a clinic</h2>
   <div class="g3">
-    <div class="card"><h3>Website &amp; SEO</h3><ul><li>SEO-optimized pages in minutes: FAQs, schema, breadcrumbs, navigation, internal links</li><li>WordPress and custom HTML sites supported</li><li>Product pages the day a new hearing aid launches</li></ul></div>
-    <div class="card"><h3>Content engine</h3><ul><li>Blogs built from real search data (Ahrefs/Semrush-grade research)</li><li>Consistent publishing schedule, no writer's block</li><li>Local content for every clinic location</li></ul></div>
-    <div class="card"><h3>Ads &amp; attribution</h3><ul><li>Daily Google Ads management</li><li>Negative lists, keyword mining, opportunity testing</li><li>Calls, chats, forms, and costs in one dashboard (CallRail, Podium, CRM integrations)</li></ul></div>
+    <div class="card"><h3>Website &amp; SEO</h3><ul><li>New product, location, and provider pages in minutes</li><li>WordPress and custom HTML sites supported</li><li>Every page SEO-structured by default: FAQs, schema, internal links</li></ul></div>
+    <div class="card"><h3>Content engine</h3><ul><li>Blogs from an agent with years of hearing-aid industry experience</li><li>Consistent publishing schedule, no writer's block</li><li>Local content for every clinic location</li></ul></div>
+    <div class="card"><h3>Ads &amp; attribution</h3><ul><li>Google Ads managed daily, proven 10x ROAS track record</li><li>Converting ads found and scaled, losers shut off fast</li><li>Lead attribution built in: see exactly what your ecosystem contributes to your practice</li></ul></div>
   </div>
 </div></section>
 
@@ -133,7 +133,8 @@ footer b{color:var(--ink)}
   <div class="stat-row" style="margin-top:14px">
     <div class="stat"><div class="n">&lt; 5 min</div><div class="l">The Starkey Omega AI page, live on a clinic website, built during a demo call</div></div>
     <div class="stat"><div class="n">2+ weeks</div><div class="l">The same page through a traditional agency, with a per-page invoice</div></div>
-    <div class="stat"><div class="n">Daily</div><div class="l">Ads monitored, keywords mined, non-converting campaigns paused - not monthly, daily</div></div>
+    <div class="stat"><div class="n">Daily</div><div class="l">Ads monitored, converting winners found, losers shut off - not monthly, daily</div></div>
+    <div class="stat"><div class="n">10x</div><div class="l">Proven return on ad spend we've maintained across managed campaigns</div></div>
   </div>
 </div></section>
 
